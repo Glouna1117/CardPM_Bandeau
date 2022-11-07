@@ -1,0 +1,553 @@
+@font-face {
+    font-family: Poppins, sans-serif;
+    src: url("bandeau_de_découverte/fonts/Poppins Regular 400.ttf");
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+input{
+    display:none;
+}
+
+input:checked ~ div {height:695px; background: linear-gradient( #092879, #37a9dc);}
+
+.dropup {
+    position: relative;
+    border:none;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    width:90%;
+    height:5rem;
+    margin-top: 0;
+    margin: 5%;
+    transition:1s;
+    background: #2c9ece;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+#titre {
+    position: relative;
+    bottom: 0%;
+    left: 7%;
+    font-size: 21px;
+}
+
+#cardpm {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin-left: 15px;
+    filter: invert(1);
+    margin-top: 36px;
+}
+
+#encadrerG {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 80px;
+    margin-bottom: -30px;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+#infoG {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    width: 315px;
+    height: 22px;
+}
+
+.info {
+    padding-right: 30px;
+}
+
+.dig {
+    color: #42b7c7;
+}
+
+#sous {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    width: 267px;
+    margin-left: 0%;
+}
+
+.sousG {
+    padding-right: 20px;
+}
+
+.principal {
+    position: relative;
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: 23px;
+    width: 95%;
+    font-size: 11px;
+}
+
+.explication {
+    margin-bottom: -7px;
+    margin-right: 5px;
+}
+
+#titrebas {
+    position: relative;
+    margin-left: 7%;
+    margin-top: -px;
+    font-size: 21px;
+}
+
+@media screen and (min-width: 370px){
+    #titre {
+        position: relative;
+        bottom: 0%;
+        left: 7%;
+        font-size: 21px;
+    }
+
+    #cardpm {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        filter: invert(1);
+        margin-top: 36px;
+    }
+
+    #encadrerG {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        margin-bottom: -30px;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    #infoG {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 315px;
+        height: 22px;
+    }
+
+    .info {
+        padding-right: 30px;
+    }
+
+    .dig {
+        color: #42b7c7;
+    }
+
+    #sous {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 267px;
+        margin-left: 0%;
+    }
+
+    .sousG {
+        padding-right: 20px;
+    }
+
+    .principal {
+        position: relative;
+        padding: 10px;
+        margin-left: 2%;
+        margin-top: 23px;
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .explication {
+        margin-bottom: -7px;
+        margin-right: 5px;
+    }
+
+    #titrebas {
+        position: relative;
+        margin-left: 7%;
+        margin-top: -px;
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (min-width: 400px){
+    #titre {
+        position: relative;
+        bottom: 0%;
+        left: 7%;
+        font-size: 21px;
+    }
+
+    #cardpm {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        filter: invert(1);
+        margin-top: 36px;
+    }
+
+    #encadrerG {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        margin-bottom: -30px;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    #infoG {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 315px;
+        height: 22px;
+    }
+
+    .info {
+        padding-right: 30px;
+    }
+
+    .dig {
+        color: #42b7c7;
+    }
+
+    #sous {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 267px;
+        margin-left: 0%;
+    }
+
+    .sousG {
+        padding-right: 20px;
+    }
+
+    .principal {
+        position: relative;
+        padding: 10px;
+        margin-left: 2%;
+        margin-top: 23px;
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .explication {
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    #titrebas {
+        position: relative;
+        margin-left: 7%;
+        top: 16px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 655px){
+    #titre {
+        position: relative;
+        bottom: 0%;
+        left: 7%;
+        font-size: 21px;
+    }
+
+    #cardpm {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        margin-left: 50px;
+        filter: invert(1);
+        margin-top: 36px;
+    }
+
+    #encadrerG {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        margin-bottom: -2px;
+        margin-top: -64px;
+        margin-left: 55%;
+        font-size: 14px;
+    }
+
+    #infoG {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 315px;
+        height: 22px;
+    }
+
+    .info {
+        padding-right: 30px;
+    }
+
+    .dig {
+        color: #42b7c7;
+    }
+
+    #sous {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 267px;
+        margin-left: 0%;
+    }
+
+    .sousG {
+        padding-right: 20px;
+    }
+
+    .principal {
+        position: relative;
+        padding: 10px;
+        margin-left: 6%;
+        margin-top: 23px;
+        width: 515px;
+        font-size: 13px;
+    }
+
+    .explication {
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    #titrebas {
+        position: relative;
+        margin-left: 5%;
+        margin-top: 62px;
+        font-size: 21px;
+    }
+
+    /*#illu {*/
+    /*    position: relative;*/
+    /*    display: block;*/
+    /*    bottom: 83%;*/
+    /*    left: 47%;*/
+    /*    width: 671px;*/
+    /*    margin-right: -28%;*/
+    /*}*/
+
+    /*#img {*/
+    /*    height: 521px;*/
+    /*    width: 618px;*/
+    /*}*/
+}
+
+@media screen and (min-width: 1210px) {
+    #titre {
+        position: relative;
+        bottom: 0%;
+        left: 3%;
+        font-size: 21px;
+    }
+
+    #cardpm {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        margin-left: 50px;
+        filter: invert(1);
+        margin-top: 36px;
+    }
+
+    #encadrerG {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        margin-bottom: -2px;
+        margin-top: -64px;
+        margin-left: 74%;
+        font-size: 14px;
+    }
+
+    #infoG {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 315px;
+        height: 22px;
+    }
+
+    .info {
+        padding-right: 30px;
+    }
+
+    .dig {
+        color: #42b7c7;
+    }
+
+    #sous {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 267px;
+        margin-left: 0%;
+    }
+
+    .sousG {
+        padding-right: 20px;
+    }
+
+    .principal {
+        position: relative;
+        padding: 10px;
+        margin-left: 6%;
+        margin-top: 23px;
+        width: 515px;
+        font-size: 13px;
+    }
+
+    .explication {
+        margin-bottom: 15px;
+    }
+
+    #titrebas {
+        position: relative;
+        margin-left: 55px;
+        top: -25px;
+        font-size: 21px;
+    }
+
+    #illu {
+        position: relative;
+        display: block;
+        bottom: 83%;
+        left: 47%;
+        width: 671px;
+        margin-right: -28%;
+    }
+
+    #img {
+        height: 556px;
+        width: 625px;
+    }
+
+}
+
+@media screen and (min-width: 1350px) {
+    #titre {
+        position: relative;
+        bottom: 0%;
+        left: 3%;
+        font-size: 21px;
+    }
+
+    #cardpm {
+        position: relative;
+        width: 150px;
+        height: 40px;
+        margin-left: 50px;
+        filter: invert(1);
+        margin-top: 36px;
+    }
+
+    #encadrerG {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80px;
+        margin-bottom: -2px;
+        margin-top: -64px;
+        margin-left: 74%;
+        font-size: 14px;
+    }
+
+    #infoG {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 315px;
+        height: 22px;
+    }
+
+    .info {
+        padding-right: 30px;
+    }
+
+    .dig {
+        color: #42b7c7;
+    }
+
+    #sous {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        width: 267px;
+        margin-left: 0%;
+    }
+
+    .sousG {
+        padding-right: 20px;
+    }
+
+    .principal {
+        position: relative;
+        padding: 10px;
+        margin-left: 6%;
+        margin-top: 23px;
+        width: 515px;
+        font-size: 15px;
+    }
+
+    .explication {
+        margin-bottom: 15px;
+    }
+
+    #titrebas {
+        position: relative;
+        margin-left: 55px;
+        top: -58px;
+        font-size: 21px;
+    }
+
+    #illu {
+        position: relative;
+        display: block;
+        bottom: 91%;
+        left: 44%;
+        width: 671px;
+        margin-right: -28%;
+    }
+
+    #img {
+        height: 550px;
+        width: 750px;
+    }
+
+}
